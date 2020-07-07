@@ -11,7 +11,6 @@ get /api/:food
 
 # writes
 post /person
-post /api/:name/:food
 
 @tables
 data

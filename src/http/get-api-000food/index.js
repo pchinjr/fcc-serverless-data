@@ -3,10 +3,10 @@ let arc = require('@architect/functions')
 
 async function getFood(req) {
   let table = 'foods'
-  let food = req.pathParameters.food
-  console.log(food)
+  // let food = req.pathParameters.food
+  //console.log(food)
   let results = await data.get({
-    table: 'foods'
+    table
   })
   console.log(results)
   return {
