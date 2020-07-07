@@ -5,8 +5,7 @@ fcc-serverless-data
 
 @http
 get /api/:name
-get /api/:personId
-get /api/:food
+get /api/food
 post /person
 
 @tables
