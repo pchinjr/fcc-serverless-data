@@ -4,14 +4,16 @@
 ## Course Objectives
 
 Create Person - create single record
-
 Create People - batch records
+`post-person` - Receives JSON of an array, so it can set one or multiple items.
 
 Find By Name - returns array of matching names
+`get-api-000name` - matches route param to unique email
+Find person by ID - unique find one id
+
 
 Find One by Food - return only one record that matches food
-
-Find person by ID - unique find one id
+`get-api-food` - matches query string param to food
 
 Find, edit, and save - find by unique id, add new array item to favorite food
 
