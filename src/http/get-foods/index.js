@@ -2,13 +2,7 @@ let data = require('@begin/data')
 let arc = require('@architect/functions')
 
 async function getFood(req) {
-
-  // let results = await data.get({
-  //   table: 'people'
-  // })
-
-  // console.log(results)
-
+  console.log('/api/food')
   return {
     type: 'application/json; charset=utf8',
     body: JSON.stringify({"praise": "cage"})
