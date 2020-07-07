@@ -1,7 +1,7 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
   "Transform": "AWS::Serverless-2016-10-31",
-  "Description": "Exported by architect/package@1.3.7 on 2020-07-07T15:40:39.554Z",
+  "Description": "Exported by architect/package@1.3.7 on 2020-07-07T15:43:06.463Z",
   "Resources": {
     "FccServerlessData": {
       "Type": "AWS::Serverless::Api",
